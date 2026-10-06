@@ -1,0 +1,1 @@
+{"expo":{"name":"همخرید","slug":"hamkharid","scheme":"hamkharid","version":"1.0.0","orientation":"portrait","plugins":["expo-router"],"android":{"package":"com.hamkharid.demo","supportsRtl":true},"ios":{"supportsTablet":false}}}
