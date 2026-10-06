@@ -1,8 +1,6 @@
 import React from 'react';
-import {I18nManager} from 'react-native';
 import {Stack} from 'expo-router';
 import {Provider} from '../data/store';
-if(!I18nManager.isRTL){I18nManager.allowRTL(true);I18nManager.forceRTL(true)}
 const o=(title:string)=>({title,headerTitleAlign:'center' as const});
 export default function L(){return <Provider><Stack screenOptions={{headerTintColor:'#0d6b58'}}>
 <Stack.Screen name="(tabs)" options={{headerShown:false}}/><Stack.Screen name="groups/[id]" options={o('جزئیات خرید')}/><Stack.Screen name="groups/join" options={o('مقدار موردنیاز شما')}/>
